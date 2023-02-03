@@ -1,0 +1,41 @@
+.one{
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+#logo, 
+#onetitle{
+    color: #F9FAF8;
+}
+
+#onetitle{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#logo{
+    font-size: 24px;
+}
+
+#Nav,
+#onebody{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.firstmeat{
+    display: flex;
+}
