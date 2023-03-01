@@ -1,7 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
 .one{
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    padding-left: 400px;
+    padding-right: 400px;
 }
 
 #logo, 
@@ -27,7 +33,7 @@
 .header{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 ul{
@@ -38,4 +44,21 @@ ul{
 
 .firstmeat{
     display: flex;
+}
+
+#oneleft{
+    display: flex;
+    flex-direction: column;
+    width: 548px;
+}
+
+#oneright{
+    display: flex;
+    width: 548px;
+}
+#onebutton{
+    border-radius: 8px;
+    width: 70px;
+    height: 20px;
+    background-color: #3882F6;
 }
